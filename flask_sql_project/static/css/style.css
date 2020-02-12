@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background: rgb(1, 115, 178);
+    color: white;
+}
+img:first-of-type{
+    width: 20%;
+    height: 20%
+}
+div{
+    width: 60%;
+    text-align: center;
+    margin-left:20%;
+}
+h2:first-of-type{
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 100%;
+    padding-left: 6px;
+}
+form h4{
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+form input:nth-child(4){
+    background-color: #6797CF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form :nth-child(5){
+    font-size: 16px
+}
+form h4 a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+body form:nth-of-type(n2) h4{
+    display: inline-block
+}
+body form:nth-of-type(n2) input{
+    width: 10%
+}
